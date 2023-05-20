@@ -3,12 +3,17 @@
 
 ## 效果
 
+### 原始效果
+![GitHub](https://github.com/xieliujian/UnityDemo_UrpSceneGray/blob/main/Video/1.png?raw=true)
 
+### 灰化效果
+![GitHub](https://github.com/xieliujian/UnityDemo_UrpSceneGray/blob/main/Video/2.png?raw=true)
 
 ## 代码
 
 ```cs
 
+// 通过控制ColorAdjustments来灰化效果
 public void SwitchEff()
 {
     Volume volume = GetComponent<Volume>();
