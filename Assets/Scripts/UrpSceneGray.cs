@@ -21,6 +21,15 @@ public class UrpSceneGray : MonoBehaviour
         
     }
 
+    private void OnGUI()
+    {
+        GUIStyle fontStyle = new GUIStyle();
+        fontStyle.normal.textColor = Color.white;
+        fontStyle.fontSize = 50;
+
+        GUI.Label(new Rect(0, 0, 600, 300), "运行时查看效果", fontStyle);
+    }
+
     public void SwitchEff()
     {
         Volume volume = GetComponent<Volume>();
@@ -48,7 +57,5 @@ public class UrpSceneGray : MonoBehaviour
             colorAdjust.hueShift.value = 0;
             colorAdjust.saturation.value = 0;
         }
-
-        
     }
 }
