@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-[ExecuteInEditMode]
+
 public class UrpSceneGray : MonoBehaviour
 {
     bool m_Gray = false;
@@ -14,6 +14,7 @@ public class UrpSceneGray : MonoBehaviour
     {
         
     }
+
 
     // Update is called once per frame
     void Update()
